@@ -1,0 +1,20 @@
+-
+  name: "Home"
+  id: 'nav.home.title'
+  icon: "fa fa-home"
+  url: "//cytopia.net"
+-
+  name: "Download"
+  id: 'nav.download.title'
+  icon: "fa fa-download"
+  url: "https://github.com/JimmySnails/Cytopia/releases"
+-
+  name: "Forum"
+  id: 'nav.forum.title'
+  icon: "fa fa-comments"
+  url: "//forum.cytopia.net"
+-
+  name: "Source Code"
+  id: 'nav.docs.title'
+  icon: "fa fa-terminal"
+  url: "https://github.com/JimmySnails/Cytopia"

@@ -1,0 +1,88 @@
+@charset "utf-8";
+$fa-font-path: "/webfonts";
+@import '../../node_modules/foundation-sites/scss/foundation';
+@import '../../node_modules/motion-ui/src/motion-ui';
+@import '../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome';
+// Start promo
+.start {
+  background: url("/images/screenshots/Screenshot2.png");
+  min-height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 10vh 0 80px;
+  margin: 0 0 100px;
+}
+
+.start::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  width: 40px;
+  height: 40px;
+  margin-left: -20px;
+  border-left: 2px solid rgba(255,255,255,0.8);
+  border-bottom: 2px solid rgba(255,255,255,0.8);
+  transform: rotate(-45deg);
+}
+
+.startbanner {
+  h1,
+  h2,
+  h3,
+  h4,
+  p {
+    color: #fff;
+    padding-top: rem-calc(15px);
+    //padding-left: rem-calc(15px);
+  }
+}
+
+.download-wrapper {
+  text-align: right;
+  padding: 100px 100px 0 0;
+}
+
+.download-wrapper .download {
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.5);
+  border-radius: 3px;
+  font-size: 24px;
+  padding: 12px 25px 12px 23px;
+  transition: all 0.15s;
+}
+
+.download-wrapper .download:hover {
+  background: #fff;
+  color: #f08a24;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.section-icon {
+  font-size: 4em;
+}
+
+footer li {
+  font-size: 3em !important;
+  padding: 0.2em;
+}
+
+footer {
+  background: lightgrey;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: #1779ba;
+  padding: 40px 0;
+  width: 100%;
+}
+
+footer ul {
+  line-height: 20px;
+  font-size: 13px;
+  list-style: none;
+  margin-left: 0;
+}
+@include foundation-everything();
