@@ -8,8 +8,8 @@ configure :development do
 end
 
 configure :build do
-  config[:host] = "cytopia.net"
-  config[:download_host] = "download.cytopia.net"
+  config[:host] = "cytopia.netlify.com"
+  config[:download_host] = "cytopia.netlify.com"
 end
 
 # Per-page layout changes:
@@ -28,3 +28,7 @@ activate :external_pipeline,
   latency: 1
 
 # redirect "/repository/index.html", :to => "http://forum.cytopia.net/thread-235.html"
+
+configure :build do
+  activate :minify_css
+end

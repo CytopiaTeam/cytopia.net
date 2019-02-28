@@ -2,7 +2,6 @@
 $fa-font-path: "/webfonts";
 @import '../../node_modules/foundation-sites/scss/foundation';
 @import '../../node_modules/motion-ui/src/motion-ui';
-@import '../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome';
 // Start promo
 .start {
   background: url("/images/screenshots/Screenshot2.png");
@@ -21,8 +20,8 @@ $fa-font-path: "/webfonts";
   width: 40px;
   height: 40px;
   margin-left: -20px;
-  border-left: 2px solid rgba(255,255,255,0.8);
-  border-bottom: 2px solid rgba(255,255,255,0.8);
+  border-left: 2px solid rgba(255, 255, 255, 0.8);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.8);
   transform: rotate(-45deg);
 }
 
@@ -45,7 +44,7 @@ $fa-font-path: "/webfonts";
 
 .download-wrapper .download {
   background: transparent;
-  border: 1px solid rgba(255,255,255,0.5);
+  border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 3px;
   font-size: 24px;
   padding: 12px 25px 12px 23px;
@@ -85,4 +84,25 @@ footer ul {
   list-style: none;
   margin-left: 0;
 }
+
+///////////////////
+// FOUC fix
+///////////////////
+.no-js {
+  @include breakpoint(small only) {
+    .top-bar {
+      display: none;
+    }
+  }
+
+  @include breakpoint(medium) {
+    .title-bar {
+      display: none;
+    }
+  }
+}
+
+
 @include foundation-everything();
+@include motion-ui-transitions;
+@include motion-ui-animations;
