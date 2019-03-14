@@ -8,8 +8,8 @@ configure :development do
 end
 
 configure :build do
-  config[:host] = "cytopia.netlify.com"
-  config[:download_host] = "cytopia.netlify.com"
+  config[:host] = "cytopia.net"
+  config[:download_host] = "cytopia.net/download"
 end
 
 # Per-page layout changes:

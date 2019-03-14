@@ -9,12 +9,17 @@
   icon: "fa fa-download"
   url: "https://github.com/JimmySnails/Cytopia/releases"
 -
-  name: "Forum"
-  id: 'nav.forum.title'
+  name: "Community"
+  id: 'nav.community.title'
   icon: "fa fa-comments"
-  url: "//forum.cytopia.net"
+  url: "//community.cytopia.net"
 -
   name: "Source Code"
   id: 'nav.docs.title'
   icon: "fa fa-terminal"
   url: "https://github.com/JimmySnails/Cytopia"
+-
+  name: "Patreon"
+  id: 'nav.patreon.title'
+  icon: "fab fa-patreon"
+  url: "https://www.patreon.com/cytopia"

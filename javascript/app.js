@@ -11,10 +11,11 @@ import {
 import {
     faReddit,
     faDiscord,
-    faGithub
+    faGithub,
+    faPatreon,
 } from "@fortawesome/free-brands-svg-icons";
 
-library.add(faHome, faDownload, faTerminal, faComments, faReddit, faDiscord, faGithub);
+library.add(faHome, faDownload, faTerminal, faComments, faReddit, faDiscord, faGithub, faPatreon);
 dom.watch();
 
 import foundation from 'foundation-sites'

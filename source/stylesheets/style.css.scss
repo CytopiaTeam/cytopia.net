@@ -12,6 +12,15 @@ $fa-font-path: "/webfonts";
   margin: 0 0 100px;
 }
 
+#backgroundVideo {
+  z-index: -100;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
 .start::after {
   content: '';
   position: absolute;
