@@ -7,5 +7,5 @@
 </title>
 <meta name="description" content="Cytopia, the free opensource citybuilding game">
 <meta name="robots" content="index, follow">
-<script src="//<%= config[:host] %>/dist/app.js"></script>
-<link href="//<%= config[:host] %>/stylesheets/style.css" rel="stylesheet">
+<%= stylesheet_link_tag "style" %>
+<%= javascript_include_tag 'app' %>

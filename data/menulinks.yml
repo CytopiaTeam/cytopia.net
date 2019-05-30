@@ -7,7 +7,7 @@
   name: "Download"
   id: 'nav.download.title'
   icon: "fa fa-download"
-  url: "https://github.com/JimmySnails/Cytopia/releases"
+  url: "//cytopia.net/download"
 -
   name: "Community"
   id: 'nav.community.title'

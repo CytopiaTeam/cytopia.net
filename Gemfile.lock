@@ -1,6 +1,12 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    actionview (5.0.7.2)
+      activesupport (= 5.0.7.2)
+      builder (~> 3.1)
+      erubis (~> 2.7.0)
+      rails-dom-testing (~> 2.0)
+      rails-html-sanitizer (~> 1.0, >= 1.0.3)
     activesupport (5.0.7.2)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 0.7, < 2)
@@ -9,12 +15,29 @@ GEM
     addressable (2.6.0)
       public_suffix (>= 2.0.2, < 4.0)
     backports (3.15.0)
+    bootsnap (1.4.4)
+      msgpack (~> 1.0)
+    builder (3.2.3)
+    chunky_png (1.3.11)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
     coffee-script-source (1.12.2)
+    compass (1.0.3)
+      chunky_png (~> 1.2)
+      compass-core (~> 1.0.2)
+      compass-import-once (~> 1.0.5)
+      rb-fsevent (>= 0.9.3)
+      rb-inotify (>= 0.9)
+      sass (>= 3.3.13, < 3.5)
+    compass-core (1.0.3)
+      multi_json (~> 1.0)
+      sass (>= 3.3.0, < 3.5)
+    compass-import-once (1.0.5)
+      sass (>= 3.2, < 3.5)
     concurrent-ruby (1.1.5)
     contracts (0.13.0)
+    crass (1.0.4)
     dotenv (2.7.2)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
@@ -31,6 +54,7 @@ GEM
     hamster (3.0.0)
       concurrent-ruby (~> 1.0)
     hashie (3.6.0)
+    htmlcompressor (0.2.0)
     http_parser.rb (0.6.0)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
@@ -38,6 +62,9 @@ GEM
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
+    loofah (2.2.3)
+      crass (~> 1.0.2)
+      nokogiri (>= 1.5.9)
     memoist (0.16.0)
     middleman (4.3.4)
       coffee-script (~> 2.2)
@@ -45,8 +72,15 @@ GEM
       kramdown (~> 1.2)
       middleman-cli (= 4.3.4)
       middleman-core (= 4.3.4)
+    middleman-blog (4.0.3)
+      addressable (~> 2.3)
+      middleman-core (>= 4.0.0)
+      tzinfo (>= 0.3.0)
     middleman-cli (4.3.4)
       thor (>= 0.17.0, < 2.0)
+    middleman-compass (4.0.1)
+      compass (>= 1.0.0, < 2.0.0)
+      middleman-core (>= 4.0.0)
     middleman-core (4.3.4)
       activesupport (>= 4.2, < 5.1)
       addressable (~> 2.3)
@@ -74,7 +108,17 @@ GEM
       em-websocket (~> 0.5.1)
       middleman-core (>= 3.3)
       rack-livereload (~> 0.3.15)
+    middleman-minify-html (3.4.1)
+      htmlcompressor (~> 0.2.0)
+      middleman-core (>= 3.2)
+    middleman-sitemap (0.0.13)
+      middleman-core (>= 3.2.2)
+    mini_portile2 (2.4.0)
     minitest (5.11.3)
+    msgpack (1.2.10)
+    multi_json (1.13.1)
+    nokogiri (1.10.3)
+      mini_portile2 (~> 2.4.0)
     padrino-helpers (0.13.3.4)
       i18n (~> 0.6, >= 0.6.7)
       padrino-support (= 0.13.3.4)
@@ -86,10 +130,16 @@ GEM
     rack (2.0.7)
     rack-livereload (0.3.17)
       rack
+    rails-dom-testing (2.0.3)
+      activesupport (>= 4.2.0)
+      nokogiri (>= 1.6)
+    rails-html-sanitizer (1.0.4)
+      loofah (~> 2.2, >= 2.2.2)
     rake (12.3.2)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
+    sass (3.4.25)
     sassc (2.0.1)
       ffi (~> 1.9)
       rake
@@ -107,8 +157,16 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  actionview
+  bootsnap
+  builder
   middleman
+  middleman-blog
+  middleman-compass
   middleman-livereload
+  middleman-minify-html
+  middleman-sitemap
+  nokogiri
   tzinfo-data
   wdm (~> 0.1.0)
 
