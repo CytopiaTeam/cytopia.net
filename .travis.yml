@@ -1,0 +1,12 @@
+dist: xenial
+language: ruby
+cache: bundler
+
+install:
+  - gem install bundle
+  - bundle
+  - yarn
+
+script:
+  - npm run build
+  - middleman build
