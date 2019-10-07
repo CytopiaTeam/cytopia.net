@@ -2895,10 +2895,10 @@ webpack@^4.41.0:
     watchpack "^1.6.0"
     webpack-sources "^1.4.1"
 
-what-input@^5.2.4:
-  version "5.2.4"
-  resolved "https://registry.yarnpkg.com/what-input/-/what-input-5.2.4.tgz#1edd0786614d9017ba657c87dd0219efe14a9103"
-  integrity sha512-syqVipJYgBCAZaDLRr0WEA7qJhsMmTBzxXxBLEDmfRWKT+WcXUPdVcZGpaToLGx2I0r7J8kbt+nCo1/Za7d4EA==
+what-input@^5.2.6:
+  version "5.2.6"
+  resolved "https://registry.yarnpkg.com/what-input/-/what-input-5.2.6.tgz#ac6f003bf8d3592a0031dea7a03565469b00020b"
+  integrity sha512-a0BcI5YR7xp87vSzGcbN0IszJKpUQuTmrZaTSQBl7TLDIdKj6rDhluQ7b/7lYGG81gWDvkySsEvwv4BW5an9kg==
 
 which-module@^2.0.0:
   version "2.0.0"
