@@ -17,7 +17,7 @@
   name: "Source Code"
   id: 'nav.docs.title'
   icon: "fa fa-terminal"
-  url: "https://github.com/JimmySnails/Cytopia"
+  url: "https://github.com/CytopiaTeam/Cytopia"
 -
   name: "Patreon"
   id: 'nav.patreon.title'

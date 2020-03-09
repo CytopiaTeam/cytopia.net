@@ -6,7 +6,8 @@ import {
     faHome,
     faDownload,
     faTerminal,
-    faComments
+    faComments,
+    faArrowAltCircleRight
 } from "@fortawesome/free-solid-svg-icons";
 import {
     faReddit,
@@ -15,11 +16,12 @@ import {
     faPatreon,
 } from "@fortawesome/free-brands-svg-icons";
 
-library.add(faHome, faDownload, faTerminal, faComments, faReddit, faDiscord, faGithub, faPatreon);
+library.add(faHome, faDownload, faTerminal, faComments, faReddit, faDiscord, faGithub, faPatreon, faArrowAltCircleRight);
 dom.watch();
 
 import foundation from 'foundation-sites'
 import $ from 'jquery';
+
 window.jQuery = $;
 window.$ = $;
 window.foundation = foundation;
