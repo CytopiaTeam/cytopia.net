@@ -1,13 +1,17 @@
-FROM ruby:2.7-alpine
+FROM alpine
 
-RUN apk add --no-cache nodejs-npm
+RUN apk add --no-cache \
+    build-base \
+    libxml2-dev \
+    ruby-full \
+    ruby-dev \
+    openssl-dev \
+    nodejs-npm
+RUN gem install bundler
 
 WORKDIR /usr/src/app
 
 COPY Gemfile Gemfile.lock ./
 RUN bundle install
-
-COPY package.json package-lock.json ./
-RUN npm install
 
 CMD bundle exec middleman serve
