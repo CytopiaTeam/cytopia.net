@@ -1,7 +1,4 @@
 @charset "utf-8";
-$fa-font-path: "/webfonts";
-@import '../../node_modules/foundation-sites/scss/foundation';
-@import '../../node_modules/motion-ui/src/motion-ui';
 
 // Start promo
 .start {
@@ -111,8 +108,3 @@ footer ul {
     }
   }
 }
-
-
-@include foundation-everything();
-@include motion-ui-transitions;
-@include motion-ui-animations;
