@@ -9,9 +9,9 @@ configure :development do
 end
 
 configure :build do
-  config[:host] = "cytopia.net"
-  config[:CDN] = "cdn.staticaly.com/img/cytopia.net"
-  config[:download_host] = "cytopia.net/download"
+  config[:host] = "//cytopia.net"
+  config[:CDN] = "//cdn.staticaly.com/img/cytopia.net"
+  config[:download_host] = "//cytopia.net/download"
 end
 
 # Per-page layout changes:

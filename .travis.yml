@@ -1,14 +1,9 @@
 dist: xenial
 language: ruby
-cache:
-  - bundler
-  - npm
+cache: bundler
 
 install:
   - gem install bundle
-  - bundle
-  - npm install
+  - bundle install
 
-script:
-  - npm run build
-  - middleman build
+script: middleman build
