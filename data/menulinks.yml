@@ -2,12 +2,12 @@
   name: "Home"
   id: 'nav.home.title'
   icon: "fa fa-home"
-  url: "//cytopia.net"
+  url: "/"
 -
   name: "Download"
   id: 'nav.download.title'
   icon: "fa fa-download"
-  url: "//cytopia.net/download"
+  url: "/download"
 -
   name: "Community"
   id: 'nav.community.title'

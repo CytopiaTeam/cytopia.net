@@ -3,9 +3,9 @@
 ###
 
 configure :development do
-  config[:host] = "localhost:4567"
-  config[:CDN] = "localhost:4567"
-  config[:download_host] = "localhost:4567/download"
+  config[:host] = ""
+  config[:CDN] = ""
+  config[:download_host] = "/download"
 end
 
 configure :build do
