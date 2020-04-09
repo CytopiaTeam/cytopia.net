@@ -7,12 +7,14 @@ This is the source code for Rigs of Rods website. It is 100% static, fast and se
 The easiest way to get started is by running it in a gitpod
 https://www.gitpod.io/#https://github.com/CytopiaTeam/cytopia.net
 
+Alternatively, you can run the website locally with docker-compose.  
+Just run `docker-compose up` and all dependencies will be installed automatically
+
 ## Technology
 Here is the list and description of all technologies used to build and run the website.
 
 ### Dependency management
 * _[bundler](https://bundler.io/)_: Used for installing middleman
-* _[npm](https://www.npmjs.com/)_: Used for the installation of the Foundation framework
 
 ### Design
 * _[Foundation](http://foundation.zurb.com/)_: loud shout out to the folks behind this framework that made rapid creation of nice looking websites possible.
@@ -21,14 +23,12 @@ Here is the list and description of all technologies used to build and run the w
 The cogs of the website.
 
 * _[Ruby](https://ruby-lang.org/)_: compile-time logic for site generator.
-* _JavaScript_: client-side runtime code.
 
 ### Baking
 * Website baked with [Middleman](https://middlemanapp.com).
 
 ## Commands
-* `bundle install` - installs middleman
-* `npm install` - install the dependencies
+* `bundle install` - install the dependencies
 * `middleman server` - Start a test server: examine the website at localhost:4567.
 * `middleman build` - Build the website locally.
 

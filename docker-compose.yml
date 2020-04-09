@@ -1,9 +1,11 @@
 version: "3.1"
 services:
   dev:
+    container_name: Cytopia_dev
     build: .
     working_dir: /usr/src/app/
     volumes:
       - .:/usr/src/app/
     ports:
       - "4567:4567"
+      - "35729:35729"

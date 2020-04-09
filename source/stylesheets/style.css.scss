@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+.no-js, .title-bar {
+  display: none;
+}
+
 // Start promo
 .start {
   background: url("/images/screenshots/Screenshot2.png");
@@ -90,21 +94,4 @@ footer ul {
   font-size: 13px;
   list-style: none;
   margin-left: 0;
-}
-
-///////////////////
-// FOUC fix
-///////////////////
-.no-js {
-  @include breakpoint(small only) {
-    .top-bar {
-      display: none;
-    }
-  }
-
-  @include breakpoint(medium) {
-    .title-bar {
-      display: none;
-    }
-  }
 }

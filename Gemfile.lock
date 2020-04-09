@@ -9,10 +9,6 @@ GEM
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
     backports (3.17.0)
-    bootsnap (1.4.6)
-      msgpack (~> 1.0)
-    bootsnap (1.4.6-java)
-      msgpack (~> 1.0)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -41,6 +37,7 @@ GEM
     hamster (3.0.0)
       concurrent-ruby (~> 1.0)
     hashie (3.6.0)
+    htmlcompressor (0.2.0)
     http_parser.rb (0.6.0)
     http_parser.rb (0.6.0-java)
     i18n (0.9.5)
@@ -85,11 +82,10 @@ GEM
       em-websocket (~> 0.5.1)
       middleman-core (>= 3.3)
       rack-livereload (~> 0.3.15)
+    middleman-minify-html (3.4.1)
+      htmlcompressor (~> 0.2.0)
+      middleman-core (>= 3.2)
     minitest (5.14.0)
-    msgpack (1.3.3)
-    msgpack (1.3.3-java)
-    msgpack (1.3.3-x64-mingw32)
-    msgpack (1.3.3-x86-mingw32)
     padrino-helpers (0.13.3.4)
       i18n (~> 0.6, >= 0.6.7)
       padrino-support (= 0.13.3.4)
@@ -97,7 +93,7 @@ GEM
     padrino-support (0.13.3.4)
       activesupport (>= 3.1)
     parallel (1.19.1)
-    public_suffix (4.0.3)
+    public_suffix (4.0.4)
     rack (2.2.2)
     rack-livereload (0.3.17)
       rack
@@ -116,7 +112,7 @@ GEM
     thread_safe (0.3.6)
     thread_safe (0.3.6-java)
     tilt (2.0.10)
-    tzinfo (1.2.6)
+    tzinfo (1.2.7)
       thread_safe (~> 0.1)
     tzinfo-data (1.2019.3)
       tzinfo (>= 1.0.0)
@@ -132,11 +128,11 @@ PLATFORMS
   x86-mswin32
 
 DEPENDENCIES
-  bootsnap
   middleman
   middleman-livereload
+  middleman-minify-html
   tzinfo-data
   wdm (~> 0.1.0)
 
 BUNDLED WITH
-   2.1.2
+   2.1.4
