@@ -91,6 +91,7 @@
 @media only screen and (max-width: 640px) {
   .slider1 {padding: 50px 0 0 0;}
   .nav-pad {padding: 50px 5px 0 5px;}
+  .team-background {min-height: 10vh;}
 }
 
 .alt-download {
@@ -115,6 +116,31 @@
   color: grey;
 }
 
+.card-header {
+  color: white;
+  background-color: #1779ba;
+  padding: 2px 0px 2px 10px;
+  border-radius: 5px;
+}
+
+.card-borderless {
+  border: 0px;
+}
+
+.team-background {
+  background: url("/teams/icons/core-cogs.png");
+  min-height: 80vh;
+  background-size: 50%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.small-image {
+  width: 70%;
+  border-radius: 10px;
+  padding-bottom: 5px;
+}
 footer li {
   font-size: 3em !important;
   padding: 0.2em;
