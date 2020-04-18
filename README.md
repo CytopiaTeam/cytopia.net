@@ -1,7 +1,7 @@
 # Cytopia website
 [![Build Status](https://travis-ci.org/CytopiaTeam/cytopia.net.svg?branch=master)](https://travis-ci.org/CytopiaTeam/cytopia.net)
 
-This is the source code for Rigs of Rods website. It is 100% static, fast and secure but uses a myriad of web tech to compile and run as intended.
+This is the source code for Cytopia website. It is 100% static, fast and secure but uses a myriad of web tech to compile and run as intended.
 
 ## Developing 
 The easiest way to get started is by running it in a gitpod
