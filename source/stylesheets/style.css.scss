@@ -76,7 +76,11 @@
 }
 
 .slider1 {
-    padding: 5px 10px 0 10px;
+  padding: 5px 10px 0 10px;
+}
+
+.nav-pad {
+  padding: 5px 10px 0 10px;
 }
 
 .nav-pad {
@@ -85,8 +89,8 @@
 
 /* Mobile Padding for slider. Screens less than 600px = Most mobile devices. */
 @media only screen and (max-width: 640px) {
-    .slider1 {padding: 50px 0 0 0;}
-    .nav-pad {padding: 50px 5px 0 5px;}
+  .slider1 {padding: 50px 0 0 0;}
+  .nav-pad {padding: 50px 5px 0 5px;}
 }
 
 .alt-download {
