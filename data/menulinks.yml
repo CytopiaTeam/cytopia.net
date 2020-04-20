@@ -14,12 +14,12 @@
   icon: "fa fa-comments"
   url: "//community.cytopia.net"
 -
-  name: "Source Code"
-  id: 'nav.docs.title'
-  icon: "fa fa-terminal"
-  url: "https://github.com/CytopiaTeam/Cytopia"
+  name: "Get Involved"
+  id: 'nav.involved.title'
+  icon: "fas fa-hands-helping"
+  url: "/getinvolved"
 -
-  name: "Patreon"
-  id: 'nav.patreon.title'
-  icon: "fab fa-patreon"
-  url: "https://www.patreon.com/cytopia"
+  name: "Donate"
+  id: 'nav.donate.title'
+  icon: "fas fa-donate"
+  url: "/donate"

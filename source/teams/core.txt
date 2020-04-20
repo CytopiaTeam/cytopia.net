@@ -1,0 +1,14 @@
+;;;
+"title": "Learn More - Core Development"
+;;;
+<div class="grid-container">
+    <div class="grid-x grid-padding-x nav-pad">
+        <div class="large-12 cell">
+            <h1>Get Involved With The Cytopia Project</h1>
+            <p>We have a variety of ways for individuals to get involved with the Cytopia project. Those looking to contribute can help refactor code, provide technical support, create new graphics or even help with documentation.</p>
+        </div>
+    </div>
+</div>
+<div class="team-background">
+    <i class="fas fa-cogs"></i>
+</div>
