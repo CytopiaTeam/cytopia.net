@@ -87,6 +87,38 @@
   padding: 5px 10px 0 10px;
 }
 
+.android-warning {
+  padding-top: 5px;
+}
+
+.brand-cards {
+  border: grey;
+  border-width: 2px;
+}
+
+.brand-color-black {
+  background-color: black;
+  padding-top: 100px;
+  border-radius: 10px;
+}
+
+.brand-color-orange {
+  background-color: #ee5f03;
+  padding-top: 100px;
+  border-radius: 10px;
+}
+
+.brand-color-grey {
+  background-color: #e1e1e1;
+  padding-top: 100px;
+  border-radius: 10px;
+}
+
+.brand-color-text {
+  font-style: italic;
+  color: grey;
+}
+
 /* Mobile Padding for slider. Screens less than 600px = Most mobile devices. */
 @media only screen and (max-width: 640px) {
   .slider1 {padding: 50px 0 0 0;}
