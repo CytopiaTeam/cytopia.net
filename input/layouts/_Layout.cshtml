@@ -1,0 +1,15 @@
+@* ReSharper disable Mvc.PartialViewNotResolved *@
+<!doctype html>
+<html lang="en">
+
+<head>
+    @Html.Partial("layouts/_head")
+</head>
+
+<body>
+@Html.Partial("layouts/_nav")
+@RenderBody()
+@Html.Partial("layouts/_footer")
+</body>
+
+</html>
