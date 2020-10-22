@@ -3,18 +3,11 @@
 
 This is the source code for Cytopia website. It is 100% static, fast and secure but uses a myriad of web tech to compile and run as intended.
 
-## Developing 
-The easiest way to get started is by running it in a gitpod
-https://www.gitpod.io/#https://github.com/CytopiaTeam/cytopia.net
-
-Alternatively, you can run the website locally with docker-compose.  
-Just run `docker-compose up` and all dependencies will be installed automatically
-
 ## Technology
 Here is the list and description of all technologies used to build and run the website.
 
 ### Dependency management
-* _[bundler](https://bundler.io/)_: Used for installing middleman
+* _[libman](https://docs.microsoft.com/en-us/aspnet/core/client-side/libman/)_: Used for the installation of the Foundation framework
 
 ### Design
 * _[Foundation](http://foundation.zurb.com/)_: loud shout out to the folks behind this framework that made rapid creation of nice looking websites possible.
@@ -22,16 +15,17 @@ Here is the list and description of all technologies used to build and run the w
 ### Coding
 The cogs of the website.
 
-* _[Ruby](https://ruby-lang.org/)_: compile-time logic for site generator.
+* _[C#/Razor](https://dotnet.microsoft.com/)_: compile-time logic for site generator.
+* _JavaScript_: client-side runtime code.
 
 ### Baking
-* Website baked with [Middleman](https://middlemanapp.com).
+* Website baked with [Statiq](https://statiq.dev/).
 
 ## Commands
-* `bundle install` - install the dependencies
-* `middleman server` - Start a test server: examine the website at localhost:4567.
-* `middleman build` - Build the website locally.
+* `libman restore & dotnet restore` - install the dependencies
+* `dotnet run -c Release -- preview` - Start a test server: examine the website at localhost:5080.
+* `dotnet run -c Release` - Build the website locally.
 
 ## License
 
-Cytopia website source code is available under the terms of [GNU General Public License v3](http://www.gnu.org/licenses/gpl.html) or any later version.
+Rigs of Rods website source code is available under the terms of [GNU General Public License v3](http://www.gnu.org/licenses/gpl.html) or any later version.

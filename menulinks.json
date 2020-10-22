@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Home",
+    "id": "nav.home.title",
+    "icon": "fa fa-home",
+    "url": "/"
+  },
+  {
+    "name": "Download",
+    "id": "nav.download.title",
+    "icon": "fa fa-download",
+    "url": "/download"
+  },
+  {
+    "name": "Community",
+    "id": "nav.community.title",
+    "icon": "fa fa-comments",
+    "url": "https://community.cytopia.net"
+  },
+  {
+    "name": "Get Involved",
+    "id": "nav.involved.title",
+    "icon": "fas fa-hands-helping",
+    "url": "/getinvolved"
+  },
+  {
+    "name": "Donate",
+    "id": "nav.donate.title",
+    "icon": "fas fa-donate",
+    "url": "/donate"
+  }
+]
