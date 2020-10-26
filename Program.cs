@@ -3,7 +3,7 @@ using Statiq.App;
 using Statiq.Common;
 using Statiq.Web;
 
-namespace rigsofrods_org
+namespace cytopia_net
 {
   public class Program
   {

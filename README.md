@@ -28,4 +28,4 @@ The cogs of the website.
 
 ## License
 
-Rigs of Rods website source code is available under the terms of [GNU General Public License v3](http://www.gnu.org/licenses/gpl.html) or any later version.
+Cytopia website source code is available under the terms of [GNU General Public License v3](http://www.gnu.org/licenses/gpl.html) or any later version.
